@@ -1,0 +1,22 @@
+/* eslint-disable no-unused-vars */
+import React from 'react'
+import { PiHexagonThin } from "react-icons/pi";
+import { motion } from 'framer-motion'
+import { fadeIn } from '../../motion/variants'
+
+const ProfilePic = () => {
+  return (
+    <motion.div
+      variants={fadeIn('left', 1.2)}
+      initial='hidden'
+      whileInView='show'
+      className='h-full flex items-center justify-right relative'>
+       <img src='../../images/MyPic.png' alt='Nihal H' className='max-h-[450px] w-auto'/>
+       <div className='absolute -z-10 flex justify-center items-center animate-pulse'>
+         <PiHexagonThin className='md:h-[90%] sm:h-[150%] min-h-[600px] w-auto text-orange blur-md animate-[spin_30s_linear_infinite]' />
+       </div>
+    </motion.div>
+  )
+}
+
+export default ProfilePic
