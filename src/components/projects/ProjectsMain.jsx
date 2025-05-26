@@ -52,7 +52,7 @@ const ProjectsMain = () => {
         
         <div className='flex flex-col gap-20 max-w-[900px] mx-auto mt-12'>
             {projects.map((item, index) => {
-               return <ProjectSingle key={index} title={item.title} year={item.year} align={item.align} image={item.image}/>
+               return <ProjectSingle key={index} title={item.title} year={item.year} align={item.align} image={item.image} link={item.link} />
             })}
         </div>
     </div>
