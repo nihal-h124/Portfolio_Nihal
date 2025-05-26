@@ -3,7 +3,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { fadeIn } from '../../motion/variants'
 import { TypeAnimation } from 'react-type-animation'
-
+import myCV from '../../assets/files/Lebenslauf_Nihal.pdf'
 
 const ProfileText = () => {
    return (
@@ -39,9 +39,11 @@ const ProfileText = () => {
             className='lg:text-xl text-lg mt-4 sm:text-lg text-lightGrey'>Ein leidenschaftlicher Webentwickler mit über 2 Jahren relevanter Erfahrung
             </motion.p>
             <div>
-              <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 mt-3 bg-orange hover:bg-darkOrange'>
-                Lebenslauf Herunterladen
-              </button>
+              <a href={myCV} download='Lebenslauf_Nihal.pdf' target='_blank'>
+                <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 mt-3 bg-orange hover:bg-darkOrange'>
+                  Lebenslauf Herunterladen
+                </button>
+              </a>
             </div>
         </div>
       </div>

@@ -27,14 +27,14 @@ const projects = [
     year: "2022-2023",
     align: "right",
     image: "../images/cosi.png",
-    link: "#",
+    link: "https://geoportal-hamburg.de/#",
   },
   {
     title: "SPICE Platform",
     year: "2024",
     align: "left",
     image: "../images/one-ic.png",
-    link: "#",
+    link: "https://ic-solution.de/spice-bpm/",
   },
 ];
 
