@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-scroll';
 
 const links = [
-  { link: "Über mich", section: "about" },
+   { link: "Über mich", section: "about" },
   { link: "Fähigkeiten", section: "skills" },
   { link: "Erfahrung", section: "experience" },
   { link: "Projekte", section: "projects" },

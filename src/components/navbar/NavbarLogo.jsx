@@ -1,9 +1,11 @@
 import React from 'react'
 
 const NavbarLogo = () => {
-  return (
+  return (    
     <div>
-      <h1 className='text-white text-2xl sm:hidden md:block'>Nihal Hegde</h1>
+      <h1 className='text-white text-2xl sm:hidden md:block'>
+        <a href="#" onClick='goToPage(0)'>Nihal Hegde</a>
+      </h1>
       <h1 className='text-white text-2xl sm:block md:hidden'>Nihal</h1>
     </div>
   )
