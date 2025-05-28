@@ -6,7 +6,9 @@ const NavbarLogo = () => {
       <h1 className='text-white text-2xl sm:hidden md:block'>
         <a href="#" onClick='goToPage(0)'>Nihal Hegde</a>
       </h1>
-      <h1 className='text-white text-2xl sm:block md:hidden'>Nihal</h1>
+      <h1 className='text-white text-2xl sm:block md:hidden'>
+        <a href="#" onClick='goToPage(0)'>Nihal</a>
+      </h1>
     </div>
   )
 }
