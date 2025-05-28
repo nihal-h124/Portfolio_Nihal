@@ -1,0 +1,59 @@
+{
+  "apphosting": [
+    {
+      "backendId": "portback",
+      "rootDir": "C:\\Users\\f1nch\\Pictures\\Portfolio\\nihal_portfolio",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "functions"
+      ]
+    },
+    {
+      "backendId": "portback",
+      "rootDir": "C://Users/f1nch/Pictures/Portfolio/nihal_portfolio",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "functions"
+      ]
+    },
+    {
+      "backendId": "portback",
+      "rootDir": "nihalh-portfolio",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "functions"
+      ]
+    },
+    {
+      "backendId": "portback",
+      "rootDir": "C:\\Users\\f1nch\\Pictures\\Portfolio_React\\nihalh-portfolio\\firebase.json",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "functions"
+      ]
+    },
+    {
+      "backendId": "portback1",
+      "rootDir": "/",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "functions"
+      ]
+    }
+  ]
+}
