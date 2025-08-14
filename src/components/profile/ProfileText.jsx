@@ -36,7 +36,7 @@ const ProfileText = () => {
             variants={fadeIn('up', 0.9)}
             initial='hidden'
             whileInView='show'
-            className='lg:text-xl text-lg mt-4 sm:text-lg text-lightGrey'>Ein leidenschaftlicher Webentwickler mit über 2 Jahren relevanter Erfahrung
+            className='lg:text-xl text-lg mt-4 sm:text-lg text-lightGrey'>Ein leidenschaftlicher Webentwickler mit über 3 Jahren relevanter Erfahrung
             </motion.p>
             <div>
               <a href={myCV} download='Lebenslauf_Nihal.pdf' target='_blank'>
